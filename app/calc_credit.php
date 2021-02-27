@@ -14,7 +14,11 @@ h1 {color: #fff8dc;margin-left: 50px;}
 
 
 <div style="width:90%; margin: 2em auto;">
-<form action="<?php print(_APP_URL);?>/app/calc.php" method="get" class="pure-form pure-form-stacked">
+    
+    <a href="<?php print(_APP_ROOT); ?>/app/secured_website.php" class="pure-button">Alternatywa</a>
+    <a href="<?php print(_APP_ROOT); ?>/app/security/logout.php" class="pure-button pure-button-active">Wyloguj</a>
+    
+<form action="<?php print(_APP_ROOT);?>/app/calc.php" method="post" class="pure-form pure-form-stacked">
      <legend>Kalkulator kredytowy</legend>
         <fieldset>
         <label for="id_kwota">Kwota kredytu: </label>
@@ -25,26 +29,29 @@ h1 {color: #fff8dc;margin-left: 50px;}
 	
 	<label for="id_proc">Oprocentowanie: </label>
 	<input id="id_proc" type="text" name="procent" value="<?php if (isset($procent)) print($procent); ?>" />
+        </fieldset>
 	<input type="submit" value="Oblicz rate" class="pure-button" />
 </form>	
-</div>
+
 <?php
 //wyświeltenie listy błędów, jeśli istnieją
 if (isset($messages)) {
-		echo '<ol style="margin: 20px; padding: 10px 10px 10px 30px; border-radius: 5px; background-color: #f88; width:300px;">';
+    if (count ( $messages ) > 0) {
+		echo '<ol style="margin-top: 1em; padding: 1em 1em 1em 2em; border-radius: 0.5em; background-color: #f88; width:25em;">';
 		foreach ( $messages as $key => $msg ) {
 			echo '<li>'.$msg.'</li>';
 		}
 		echo '</ol>';
-	
+    }
 }
 ?>
 
-<div style="margin-top: 1em; padding: 1em; border-radius: 0.5em; background-color: #dcdcdc; width:25em;">
+
 <?php if (isset($result)){ ?>
+    <div style="margin-top: 1em; padding: 1em; border-radius: 0.5em; background-color: #dcdcdc; width:25em;">
 <?php echo 'Rata miesięczna wynosi: '.$result.'zł'; ?>
 </div>
 <?php } ?>
-
+</div>
 </body>
 </html>

@@ -2,4 +2,4 @@
 require_once 'config.php';
 
 //przekazanie żądania do następnego dokumentu ("forward")
-include _ROOT_PATH.'/app/calc_kredytu.php';
+include _ROOT_PATH.'/app/calc.php';
