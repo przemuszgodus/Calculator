@@ -1,17 +1,15 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
 <head>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css">
-<style>
-body {background-color: #A9A9A9;}
-h1 {color: #fff8dc;margin-left: 50px;}
-</style>
+<link rel="stylesheet" type="text/css" href="<?php print(_APP_URL); ?>/app/css/style.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css">
 
+        
 <meta charset="utf-8" />
 <title>Kalkulator Kredytu</title>
+
 </head>
 <body>
-
 
 <div style="width:90%; margin: 2em auto;">
     

@@ -1,13 +1,6 @@
 <?php
 require_once dirname(__FILE__).'/../config.php';
 
-// KONTROLER strony kalkulatora
-
-// W kontrolerze niczego nie wysyła się do klienta.
-// Wysłaniem odpowiedzi zajmie się odpowiedni widok.
-// Parametry do widoku przekazujemy przez zmienne.
-
-// 1. pobranie parametrów
 
 include _ROOT_PATH.'/app/security/check.php';
 
@@ -77,7 +70,8 @@ function process(&$kwota,&$lata,&$procent,&$messages,&$result){
         if ($kwota>9999 && $role == 'user'){
             $messages [] = 'Tylko administrator może brac kredyt powyzej 9999zł !';
         } else {
-            $result = (($kwota)/($lata*12)*($procent/100+1));
+            $result = round((($kwota)/($lata*12)*($procent/100+1)),2);
+         
                 
             }
         
