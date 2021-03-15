@@ -58,7 +58,7 @@
                         <div class="l-box-lrg pure-u-1 pure-u-med-3-5">
 
 
-                            {* wyświeltenie listy błędów, jeśli istnieją *}
+                            
                             {if isset($messages)}
                                 {if count($messages) > 0} 
                                     <h4>Wystąpiły błędy: </h4>
@@ -72,20 +72,8 @@
                                 {/if}
                             {/if}
 
-                            {* wyświeltenie listy informacji, jeśli istnieją *}
-                            {if isset($infos)}
-                                {if count($infos) > 0} 
-                                    <h4>Informacje: </h4>
-                                    <ol class="infos">
-                                        {foreach  $infos as $msg}
-                                            {strip}
-                                                <li>{$msg}</li>
-                                                {/strip}
-                                            {/foreach}
-                                    </ol>
-                                {/if}
-                            {/if}
-
+                            
+                  
                             {if isset($result)}
                                 <h4>Wynik</h4>
                                 <p class="result">
@@ -100,10 +88,7 @@
                 </section>
             </article>
 
-            <!-- Contact -->
-
-
-        </div>
+           </div>
 
         <!-- Footer -->
         <div id="footer">
