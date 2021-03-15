@@ -90,4 +90,4 @@ $smarty->assign('messages',$messages);
 $smarty->assign('infos',$infos);
 
 // 5. Wywołanie szablonu
-$smarty->display(_ROOT_PATH.'/app/calc.html');
+$smarty->display(_ROOT_PATH.'/app/calc.tpl');
