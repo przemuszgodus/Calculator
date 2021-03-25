@@ -7,5 +7,5 @@ Project of my credit-calculator in PHP.
 <a href="https://github.com/przemuszgodus/Kalkulator/tree/step-4">step-4</a> Smarty library + HTML5 UP view. </br>
 <a href="https://github.com/przemuszgodus/Kalkulator/tree/step-5">step-5</a> Objectivity + Smarty + HTMLUP5  </br>
 <a href="https://github.com/przemuszgodus/Kalkulator/tree/step-6">step-6</a> Main controler + Objectivity + Smarty + HTMLUP5</br>
-<a href="https://github.com/przemuszgodus/Kalkulator/tree/step-6a">step-6a</a>New structure of program</br>
-<a href="https://github.com/przemuszgodus/Kalkulator/tree/step-6b">step-6b</a>Used namespaces 
+<a href="https://github.com/przemuszgodus/Kalkulator/tree/step-6a">step-6a</a> New structure of program</br>
+<a href="https://github.com/przemuszgodus/Kalkulator/tree/step-6b">step-6b</a> Used namespaces 
