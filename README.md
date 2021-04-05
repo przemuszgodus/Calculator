@@ -8,5 +8,8 @@ Project of my credit-calculator in PHP.
 <a href="https://github.com/przemuszgodus/Kalkulator/tree/step-5">step-5</a> Objectivity + Smarty + HTMLUP5  </br>
 <a href="https://github.com/przemuszgodus/Kalkulator/tree/step-6">step-6</a> Main controler + Objectivity + Smarty + HTMLUP5</br>
 <a href="https://github.com/przemuszgodus/Kalkulator/tree/step-6a">step-6a</a> New structure of program</br>
-<a href="https://github.com/przemuszgodus/Kalkulator/tree/step-6b">step-6b</a> Used namespaces 
+<a href="https://github.com/przemuszgodus/Kalkulator/tree/step-6b">step-6b</a> Used namespaces</br>
+<a href="https://github.com/przemuszgodus/Kalkulator/tree/step-7">step-7</a> Added security with main controller</br>
+<a href="https://github.com/przemuszgodus/Kalkulator/tree/step-7a">step-7a</a> Added invocation based on role (admin, user)</br>
+<a href="https://github.com/przemuszgodus/Kalkulator/tree/step-7b">step-7b</a> Added routing
 
